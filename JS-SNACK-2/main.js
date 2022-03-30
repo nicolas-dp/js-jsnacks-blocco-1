@@ -11,6 +11,11 @@ const second_word = prompt("Inserisci la seconda parola scelta");
 
 //Il software stampa prima la parola più corta e poi quella più lunga
 
+if (isNaN(first_word) || isNaN(second_word) ) {
+        console.log("Amico non hai inserito le parole correttamente!!!!");
+}
+
+
 if (first_word.length > second_word.length) {
     console.log(`E' la parola più CORTA è: ${second_word}`);
     console.log(`E' la parola più LUNGA è: ${first_word}`);
