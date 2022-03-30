@@ -19,7 +19,7 @@ let somma = (primo_numero + secondo_numero + terzo_numero + quarto_numero + quin
 
 console.log(somma);
 
-
+/* 
 for (let i = 1; i <= 10; i++) {
     const numero = new Array(prompt(`Inserisci il ${i} numero`));
     console.log(numero);
@@ -29,7 +29,7 @@ for (let i = 1; i <= 10; i++) {
     
 }
 
-console.log(somma);
+console.log(somma); */
 
 
 
