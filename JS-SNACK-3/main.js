@@ -5,7 +5,7 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 
 
 //Inizializziamo le variabili
-let primo_numero = parseInt(prompt("Inserisci il primo numero"))
+/* let primo_numero = parseInt(prompt("Inserisci il primo numero"))
 let secondo_numero = parseInt(prompt("Inserisci il secondo numero"))
 let terzo_numero = parseInt(prompt("Inserisci il terzo numero"))
 let quarto_numero = parseInt(prompt("Inserisci il quarto numero"))
@@ -18,18 +18,23 @@ let decimo_numero = parseInt(prompt("Inserisci il decimo numero"))
 let somma = (primo_numero + secondo_numero + terzo_numero + quarto_numero + quinto_numero + sesto_numero + settimo_numero + ottavo_numero + nono_numero + decimo_numero);
 
 console.log(somma);
+ */
+let somma, numero_utente;
 
-/* 
+somma= 0;
+
 for (let i = 1; i <= 10; i++) {
-    const numero = new Array(prompt(`Inserisci il ${i} numero`));
-    console.log(numero);
-
-    somma += numero[i];
-
+    numero_utente = parseInt(prompt(`Inerisci il ${i} numero`));
+    somma = somma + numero_utente;
     
 }
 
-console.log(somma); */
+console.log(somma);
+
+
+
+
+
 
 
 
