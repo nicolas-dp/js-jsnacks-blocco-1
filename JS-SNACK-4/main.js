@@ -20,11 +20,11 @@ for (let i = 0; i < festaArray.length; i++) {
 
 if (verifica == true) {
     // quando il nome_utente è presente nell'array lo stampo in console
-    console.log(`${nome_utente} Sei stato invitato alla festa`);
+    console.log(`${nome_utente.toUpperCase()} Sei stato invitato alla festa`);
 } else {
     // altrimenti se non è presente vuol dire che la variabile verifica è rimasta su false e qundi
     // l'utente non è stato invitato
-    console.log(`${nome_utente} Non sei presente tra gli invitati`);
+    console.log(`${nome_utente.toUpperCase()} Non sei presente tra gli invitati`);
 }
 
 
