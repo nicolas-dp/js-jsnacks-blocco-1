@@ -15,7 +15,7 @@ while (i <= 10) {
 
 
 
-console.log(somma);
+console.log(`La somma di tutti i numeri inseriti è: ${somma}`);
 
 
 
