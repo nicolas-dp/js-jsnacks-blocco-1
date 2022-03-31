@@ -8,7 +8,7 @@ let n_numero = 10;
 let media = 0;
 let somma = 0;
 
-for (let i = 1; i < 100; i++) {
+for (let i = 0; i < 100; i++) {
     arrayNumbers.push(Math.floor(Math.random() * 100) + 1);   
 }
 console.log(arrayNumbers);
